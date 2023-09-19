@@ -22,7 +22,7 @@ class SuperAdminUserSeeder extends Seeder
         if ($superadminRole) {
             // Buat data user sebagai superadmin
             User::create([
-                'name' => 'Super Evi',
+                'name' => 'Bu Evi',
                 'username' => 'evisabir',
                 'password' => bcrypt('password'), // Ganti "password" dengan password yang ingin Anda gunakan
                 'role_id' => $superadminRole->id,
