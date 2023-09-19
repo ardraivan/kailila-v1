@@ -1,0 +1,40 @@
+.container {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+body {
+    background: linear-gradient(to right, #2196f3, #f44336);
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.card {
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+    
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
