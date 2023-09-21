@@ -22,7 +22,7 @@
                 <div class="form-group">
                     <label for="userName">Name</label>
                     <input type="text" class="form-control @error('name') is-invalid @enderror" id="userName"
-                        name="name" placeholder="Enter User Name" required value="{{ old('name') }}">
+                        name="name" placeholder="Enter Name" required value="{{ old('name') }}">
                     @error('name')
                         <span class="invalid-feedback">{{ $message }}</span>
                     @enderror
